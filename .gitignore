@@ -1,0 +1,33 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and models (raw large files should not be committed)
+data/raw/
+data/*.csv
+models/trained_models/
+reports/figures/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+.log
