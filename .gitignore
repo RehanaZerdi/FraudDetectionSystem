@@ -1,35 +1,32 @@
-# Python caches and bytecode
+# Python
 __pycache__/
 *.py[cod]
+*.so
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-
-# Virtual environments
-venv/
-env/
-.venv/
-
-# IDE/editor settings
-.vscode/
-.idea/
-
-# Jupyter
+# Jupyter Notebooks checkpoints
 .ipynb_checkpoints/
 
-# Data and models (keep raw/unprocessed data ignored; allow processed CSVs to be tracked)
-# Ignore raw data folder (large originals)
-data/raw/
-# Allow processed CSVs in data/processed/ to be tracked (remove broad data/*.csv ignore)
-data/processed/*.csv
-models/trained_models/
-reports/figures/
+# Environment files
+.env
+venv/
+*.egg-info/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Data files
+*.csv
+*.tsv
+*.data
+*.dat
+*.h5
+*.pkl
 
-# Logs
-.log
+# Model files
+*.pt
+*.pth
+*.joblib
+
+# Logs and outputs
+*.log
+*.out
+
+# VS Code settings
+.vscode/
